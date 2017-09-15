@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "de.hpi.coap_from_android"
+        minSdkVersion 23
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+    dependencies {
+        compile 'org.eclipse.californium:californium-core:2.0.0-M14'
+        compile 'com.android.support:appcompat-v7:26.+'
+    }
+    packagingOptions {
+        /* excluding this stuff solved compilation errors */
+        exclude 'META-INF/maven/**'
+        exclude 'META-INF/ECLIPSE_.RSA'
+        exclude 'META-INF/ECLIPSE_.SF'
+        exclude '3rd-party/APACHE-LICENSE-2.0.txt'
+        exclude '3rd-party/MIT-license.html'
+        exclude '3rd-party/cc0-legalcode.html'
+        exclude '3rd-party/BSD-3-Clause-LICENSE.txt'
+        exclude 'about.html'
+        exclude 'edl-v10.html'
+        exclude 'epl-v10.html'
+        exclude 'notice.html'
+    }
+}

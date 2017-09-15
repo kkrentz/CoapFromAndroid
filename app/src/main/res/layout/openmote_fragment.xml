@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:text="@string/actuators_title"
+      android:textSize="32sp"
+      android:textColor="@color/hpiGrey"/>
+
+  <Switch android:id="@+id/redSwitch"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:text="@string/red_led_label"
+      android:textSize="32sp"/>
+
+  <Switch android:id="@+id/greenSwitch"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:text="@string/green_led_label"
+      android:textSize="32sp"/>
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:text="@string/sensors_title"
+      android:textSize="32sp"
+      android:textColor="@color/hpiGrey"/>
+
+  <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/temperature_label"
+        android:textSize="32sp"/>
+    <TextView
+        android:id="@+id/temperatureTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:freezesText="true"
+        android:textSize="32sp"
+        android:textColor="@color/hpiGrey"/>
+  </LinearLayout>
+
+  <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/humidity_label"
+        android:textSize="32sp"/>
+    <TextView
+        android:id="@+id/humidityTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:freezesText="true"
+        android:textSize="32sp"
+        android:textColor="@color/hpiGrey"/>
+  </LinearLayout>
+
+  <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/brightness_label"
+        android:textSize="32sp"/>
+    <TextView
+        android:id="@+id/lightTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:freezesText="true"
+        android:textSize="32sp"
+        android:textColor="@color/hpiGrey"/>
+  </LinearLayout>
+</LinearLayout>

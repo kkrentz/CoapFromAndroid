@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="actuators_title">Actuators</string>
+    <string name="sensors_title">Sensors</string>
+    <string name="green_led_label">Green LED</string>
+    <string name="yellow_led_label">Yellow LED</string>
+    <string name="red_led_label">Red LED</string>
+    <string name="temperature_label">Temperature</string>
+    <string name="humidity_label">Humidity</string>
+    <string name="brightness_label">Brightness</string>
+</resources>

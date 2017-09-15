@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorWhite">#FFFFFFFF</color>
+    <color name="hpiOrange">#DD6108</color>
+    <color name="hpiGrey">#5A6065</color>
+    <color name="hpiYellow">#F6A800</color>
+    <color name="hpiRed">#B1063A</color>
+    <color name="green">#00FF00</color>
+</resources>

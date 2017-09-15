@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="addresses">
+        <item>fd00::ff:fe00:5373</item>
+        <item>fd00::ff:fe00:5336</item>
+        <item>fd00::ff:fe00:5366</item>
+    </string-array>
+</resources>
